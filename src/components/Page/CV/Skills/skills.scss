@@ -1,0 +1,111 @@
+@import 'src/styles/vars';
+
+#skills {
+    margin-top: 3em;
+    margin-bottom: 10em;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-right: auto;
+    margin-left: auto;
+
+    & #skills-bloc {
+       display: flex;
+       flex-direction: row-reverse;
+       justify-content: center;
+       flex-wrap: wrap;
+       align-items: center;
+    }
+
+    & .description-skills {
+        width: 30%;
+        min-width: 20em;
+        border-bottom: 1px $color-medium dashed;
+        border-top: 1px $color-medium dashed;
+        padding-top: 1em;
+        padding: 2em;
+    }
+    
+    & #skills-list {
+    margin-top: 1.6em;
+    display: flex;
+    flex-direction: column;
+    
+    
+    }
+
+    & h1 {
+        font-weight: normal;
+        color: $color-medium;
+        font-family: 'Caveat', cursive;
+        margin-bottom: 1.6em;
+    }
+
+    & .bloc-skill {
+        display: flex; 
+        flex-direction: row; 
+        margin: 0em 1em;
+        
+
+        & h2 {
+            font-size: 1em;
+            font-weight: normal;
+            width: 8em;
+        }
+
+    }
+
+    & .bloc {
+        width: 10em;
+        height: 1.3em;
+        border: 1px $color-soft solid;
+        align-self: center;
+        margin-left: 1em;
+    }
+
+    & .gauge {
+    
+        height: 1.2em;
+        background-color: $color-soft;
+        
+    }
+}
+
+.animation {
+  animation: scale-up-hor-left 5s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
+}
+
+  @keyframes scale-up-hor-left {
+    0% {
+      -webkit-transform: scaleX(0);
+              transform: scaleX(0);
+      -webkit-transform-origin: 0% 0%;
+              transform-origin: 0% 0%;
+    }
+    100% {
+      -webkit-transform: scaleX(1);
+              transform: scaleX(1);
+      -webkit-transform-origin: 0% 0%;
+              transform-origin: 0% 0%;
+    }
+  }
+
+  @media screen and (max-width: 1100px) {
+    #skills{
+      margin-bottom: 2em;
+
+    & h1 {
+      margin-bottom: 0.6em;
+    }
+
+    & #skills-bloc {
+      margin-top: .1em;
+    }
+
+    & .description-skills {
+    margin-top: 2em;
+    }
+  }
+    
+}

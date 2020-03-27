@@ -1,0 +1,40 @@
+@import 'src/styles/vars';
+
+#contact {
+    margin-top: 5em;
+    padding-bottom: 5em;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-right: auto;
+    margin-left: auto;
+
+    & a {
+        text-decoration: none;
+        color: #212529;
+    }
+    
+
+    & h1 {
+        font-weight: normal;
+        color: $color-medium;
+        font-family: 'Caveat', cursive;
+        margin-bottom: 2em;
+    }
+
+    & .contact-type {
+        display: flex; 
+        flex-direction: row; 
+        justify-content: center;
+        align-items: flex-end;
+        margin-bottom: 2em;
+    }
+
+    & .icon {
+        margin-right: 2em;
+    }
+
+}
+
+
+  

@@ -1,0 +1,140 @@
+{"myself": {   
+   "fr":
+   {"title": "Qui suis-je ?",
+    "content": "FR Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed varius nec sem a posuere. Sed id tortor rhoncus, tristique lectus nec, imperdiet enim. In scelerisque a orci a sollicitudin. Suspendisse potenti. Suspendisse elit elit, laoreet ac dictum at, lobortis et erat. Etiam placerat ipsum quis lectus posuere aliquam. In venenatis eleifend interdum. Aenean vestibulum ornare nulla, sed auctor tortor maximus eu. Praesent ut feugiat enim. Cras varius tellus sagittis tortor mattis lobortis. Donec nec odio quis ligula tristique mollis. Nullam leo quam, semper sit amet sagittis eu, pulvinar non nunc. In eu sapien non diam volutpat accumsan nec non nisl."
+    },
+    "ang":
+    {"title": "Who am I ?",
+    "content": "UK Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed varius nec sem a posuere. Sed id tortor rhoncus, tristique lectus nec, imperdiet enim. In scelerisque a orci a sollicitudin. Suspendisse potenti. Suspendisse elit elit, laoreet ac dictum at, lobortis et erat. Etiam placerat ipsum quis lectus posuere aliquam. In venenatis eleifend interdum. Aenean vestibulum ornare nulla, sed auctor tortor maximus eu. Praesent ut feugiat enim. Cras varius tellus sagittis tortor mattis lobortis. Donec nec odio quis ligula tristique mollis. Nullam leo quam, semper sit amet sagittis eu, pulvinar non nunc. In eu sapien non diam volutpat accumsan nec non nisl."
+    }
+    },
+
+ "skills": {
+    "fr": {"title": "Mes compétences",
+    "content": "C'est très humblement que je vous liste mes compétences. Je m'améliore chaque jour et l'un de mes objectifs (mon objectif principal) est de continuer à apprendre. J'ai récemment passé le certificat de Compétences Opquast Certified avec un score de 885/1000 et je prépare également le Titre Professionnel Développeur Web et Web Mobile."
+    },
+    "ang": {"title": "My Skills",
+        "content": "UK Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed varius nec sem a posuere. Sed id tortor rhoncus, tristique lectus nec, imperdiet enim. In scelerisque a orci a sollicitudin. Suspendisse potenti. Suspendisse elit elit, laoreet ac dictum at, lobortis et erat. Etiam placerat ipsum quis lectus posuere aliquam."
+        }
+    },
+
+ "experience": {
+     "fr": {"title": "Expériences",
+            "content": 
+             {"highlight": 
+             {"name": "Web Développement",
+            "date": "Janvier 2020",
+            "details":"Le dernier mois de formation O'Clock est dédié à un projet en groupe en conditions réelles. Nous étions cinq dans mon groupe et disposions d'un mois pour avancer au maximum sur un projet. Nous avons utilisé Symfony et React."},
+            "more": 
+            [{"name": "Agent de voyages / Capital Culturel Européen (Mâcon, France)",
+            "date": "Avril 2017 - Avril 2019",
+            "details":"Organisation de séjours linguistiques pour les groupes scolaires en Grande-Bretagne (rigueur, organisation, flexibilité, gestion des imprévus)"}, 
+            {"name": "Stage / Musée d'Art Moderne (Luxembourg)",
+            "date": "Avril 2016 - Septembre 2016",
+            "details":"Assistante du responsable des relations externes. Ma mission principale était d'augmenter le nombre de visites et développer les événements d'entreprise."}     
+        ]
+    }},
+    "ang": { "title": "Experience",
+        "content": 
+            {"highlight": 
+                {"name": "Web Development Project",
+                "date": "January 2020",
+                "details":"The final month of O'Clock's formation is dedicated to a group project in business condition. We were 5 people in the group and we had 1 month to create a website from scratch. To do so we used Symfony and React."},
+             "more": 
+                [{"name": "Travel Agent / Capital Culturel Européen (Mâcon, France)",
+                "date": "April 2017 - April 2019",
+                "details":"I organised school trips in the UK for French groups. (rigour, organization, flexibility, unexpected events management)"}, 
+                {"name": "External relations intern / Museum of Modern Art (Luxembourg)",
+                "date": "April 2016 - September 2016",
+                "details":"I assisted the responsible for external relations. My main mission was to increase tourist visits and develop corporate events in the museum."}     
+            ]
+        }
+
+    }
+},
+
+  "education": {
+  "fr": {"title": "Formations",
+    "content": 
+        {"highlight": 
+            {"name": "Formation Web Développeur",
+            "date": "Juillet 2019 - Février 2020",
+            "details":" Cours délivré par O'Clocl, labellisé 'Grande Ecole du Numérique':",
+            "list": [{"item": "Trois mois de cours et de pratique: HTML, CSS, PHP, JS, GIT MySQL"},
+                     {"item": "Un mois de spécialisation (cours et pratique): React"},
+                     {"item": "Un mois de pratique en condition d'entreprise."}
+            ]},
+         "more": 
+            [{"name": "Master : Marketing des destinations touristiques (IAE Savoie Mont-Blanc)",
+            "date": "2014- 2016",
+            "details":"Un semestre Eramus au sein de la London Metropolitan University"}, 
+            {"name": "Licence : Tourisme Durable (Université de Toulon)",
+            "date": "2013 - 2014",
+            "details": ""}     
+        ]
+    }
+}, 
+"ang": {"title": "Education",
+    "content": 
+        {"highlight": 
+            {"name": "Professional degree: Web Developer",
+            "date": "July 2019 - February 2020",
+            "details":"To prepare this degree I took the courses delivered by a French training organisation: O’clock (School labelled 'Grande Ecole du Numérique'):",
+            "list": [{"item": "3 months of courses with practice: HTML, CSS, PHP, JS, GIT MySQL"},
+                     {"item": "1 month of specialization with practice: React"},
+                     {"item": "1 month of practice only."}
+            ]},
+         "more": 
+            [{"name": "Master’s degree: Brand Strategy of Tourist Destinations (IAE Savoie Mont-Blanc)",
+            "date": "2014- 2016",
+            "details":"Includes 1 semester within the London Metropolitan University"}, 
+            {"name": "Bachelor’s degree: Sustainable Tourism (Toulon University)",
+            "date": "2013 - 2014",
+            "details": ""}     
+        ]
+    }
+  }
+
+},
+
+  "hobbies": {
+   "fr": {"title": "Ce que j'aime dans la vie",
+    "subtitle": "(A part développer des sites bien sûr)",
+    "content": {
+        "baking" : {
+            "title" : "La patisserie",
+            "content" : "Comme pour le développement, j'aime quand c'est beau et bon. Tout mon entourage en profite, y compris mes collègues ! "
+        },
+        "travelling" : {
+            "title" : "Les voyages",
+            "content" : "Ce n'est pas très original je vous l'accorde. Au delà des voyages j'aime vivre à l'étranger : j'ai eu l'opportunité de passer quelques mois ou quelques années : à Londres, à Saint-Jacques-de-Compostelle et à Columbus (dans l'état de l'Ohio aux USA). Cela fait de moi quelqu'un qui s'adapte rapidement et facilement à presque toutes les situations."
+        }
+    }
+    },
+"ang" : {
+    "title": "Things I love doing",
+    "subtitle": "(others than coding and designing)",
+    "content": {
+        "baking" : {
+            "title" : "Baking",
+            "content" : "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed varius nec sem a posuere. Sed id tortor rhoncus, tristique lectus nec, imperdiet enim. In scelerisque a orci a sollicitudin. "
+        },
+        "travelling" : {
+            "title" : "Travelling",
+            "content" : "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed varius nec sem a posuere. Sed id tortor rhoncus, tristique lectus nec, imperdiet enim. In scelerisque a orci a sollicitudin. "
+        }
+    }
+}},
+
+    "contact": {
+        "fr": {"title": "Me contacter",
+    "contact1":"Linkedin",
+    "contact2" : "Email"
+    }, 
+    "ang": {
+        "title": "Contact Me",
+         "contact1":"Linkedin",
+         "contact2" : "Email"
+    }
+}
+}

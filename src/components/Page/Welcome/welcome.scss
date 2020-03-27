@@ -1,0 +1,69 @@
+@import 'src/styles/vars';
+#container {
+    margin-top: 10%;
+    display: flex; 
+    justify-content: center; 
+    align-items: center; 
+    
+}
+.buttons {
+    display: flex; 
+    flex-direction: column; 
+    padding: 2em; 
+    align-items: center; 
+    min-width: 400px;
+    text-align: center; 
+    border-radius: .2em; 
+    background-color: rgba(85, 60, 80, 0.9); 
+    z-index:1;
+    
+
+    & button {
+        margin: 1em;  
+        padding: 1em; 
+        font-size: 1.2em; 
+        border-radius: .4em; 
+        border: none;
+        background-color: transparent; 
+
+       & .button {
+            font-size: 1.3em; 
+            font-weight: bold;  
+        }   
+    }
+
+ & strong {
+    font-family: 'Montserrat', sans-serif;
+ }
+ & .button_english, .english {
+    color: $color-background; 
+    min-width: 200px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+ & .button_french, .french {
+    color: $color-background; 
+    min-width: 210px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+& .button_case {
+    padding: .7em;
+}
+
+& .button_case:hover {
+    padding: 0 2em; 
+}
+
+}
+
+#particles canvas {
+    position:fixed !important;
+    left:0;
+    top:0;
+    width:100%;
+    height:100%;
+    
+}
+
+    

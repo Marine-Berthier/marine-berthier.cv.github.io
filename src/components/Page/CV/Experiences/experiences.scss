@@ -1,0 +1,86 @@
+@import 'src/styles/vars';
+
+#experiences {
+    margin-right: 2em;
+    text-align: left;
+    min-width: 20em;
+    max-width: 30em;
+    margin-bottom: 1.5em;
+    padding-left: 1em;
+    color: $color-background;
+    margin-bottom: 8em;
+
+    & .experience-list {
+        background-color: #816871;
+        padding: 1em;
+        border-radius: .2em;
+        
+
+        & .experience-1 {
+            margin-bottom: 3.7em;
+        }
+    }
+
+    & h1 {
+        font-weight: normal;
+        color: $color-medium;
+        font-family: 'Caveat', cursive;
+        padding-bottom: 1em;
+        
+    }
+
+    & h2 {
+        font-weight: normal;
+        color: $color-highlight;
+        font-size: 1.3em;
+        color: $color-background;
+    }
+
+    & span {
+        color: $color-soft;
+        font-size: .8em;
+        color: #f4e7e3;
+    }
+
+    & #accordion-experience {
+        background-color: #816871;
+        border: none; 
+
+        & .card-header {
+        background-color: #816871;
+        border: none; 
+        }
+
+        & .accordion-button {
+            background-color:  #816871;
+            border: none; 
+            text-decoration: none;  
+        }
+
+
+        & .title {
+            color: $color-medium;
+            font-size: .8em;
+
+        }
+        
+        
+}
+
+    }
+
+    @media screen and (max-width: 1100px) {
+
+        #experiences {
+            margin-bottom: 2em;
+            & h1 {
+                padding-bottom: .3em;
+                padding-left: .3em;
+            }
+            & .experience-list {
+                width: 100vw;
+            }
+        }
+       
+        
+    }

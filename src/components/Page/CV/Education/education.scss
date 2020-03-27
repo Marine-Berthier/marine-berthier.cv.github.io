@@ -1,0 +1,81 @@
+@import 'src/styles/vars';
+
+
+#education {
+    margin-right: 2em;
+    padding-right: 1em;
+    text-align: right;
+    min-width: 20em;
+    max-width: 30em;
+    margin-bottom: 8em;
+    
+
+    & .education-list {
+        padding: 1em;
+    }
+    
+
+
+    & h1 {
+        font-weight: normal;
+        color: $color-medium;
+        font-family: 'Caveat', cursive;
+        padding-bottom: 1em;
+    }
+
+    & h2 {
+        font-weight: normal;
+        color: $color-highlight;
+        font-size: 1.3em;
+    }
+
+    & span {
+        color: $color-soft;
+        font-size: .8em;
+    }
+
+    & .list {
+        text-align: justify;
+    }
+
+    & #accordion-education {
+        background-color: #ECD2CB;
+        border: none; 
+
+        & .card-header {
+            background-color: #ECD2CB;
+            border: none; 
+
+        & .accordion-button {
+            background-color: #ECD2CB;
+            border: none; 
+            text-decoration: none;  
+        }
+        & .title {
+            color: $color-medium;
+            font-size: .8em;
+        }
+        }
+        
+        
+    }
+}
+
+@media screen and (max-width: 1100px) {
+
+    #education {
+        margin-bottom: 2em;
+        margin-right: 0em;
+        
+        & h1 {
+            padding-bottom: .3em;
+            padding-left: .3em;
+        }
+        & .education-list {
+            width: 100vw;
+            padding:0em;
+        }
+    }
+   
+    
+}

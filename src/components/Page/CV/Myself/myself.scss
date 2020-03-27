@@ -1,0 +1,100 @@
+@import 'src/styles/vars';
+
+#myself {
+    margin-top: 5em;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding: 2em;
+    margin-bottom: 5em;
+
+    & h1 {
+        font-weight: normal;
+        color: $color-medium;
+        font-family: 'Caveat', cursive;
+    }
+
+    & #container {
+        display: flex; 
+        flex-wrap: wrap; 
+        align-items: flex-start;
+    }
+
+    & .picture-div {
+        margin-right: 2em;
+        
+    }
+
+    &  .picture {
+        width: 200px;
+        height: 200px;
+        background: url('./portrait.jpg');
+        background-position: center top;
+        background-size: cover;
+        border-radius: 50%
+      }
+
+    & .presentation {
+        max-width: 40em;
+        min-width: 30em;
+        text-align: left;
+        padding-left: 4em;
+        padding-right: 1em;
+
+
+    }
+
+    & .frame {
+        border: 1px $color-medium solid;
+        height: 20em; 
+        width: 35em;
+        position: absolute; 
+    }
+
+    & .paragraph {
+    background-color: #816871;
+    padding: 2em;
+    position: relative;
+    top: -2em;
+    left: 2em;
+    color: #ECD2CB;
+    box-shadow: -5px 5px 5px  rgba(63, 61, 61, 0.7);
+    
+       
+    }
+}
+
+@media screen and (max-width: 1250px) {
+    #myself {
+        margin-top: 0em;
+    
+
+    & .frame {
+        display: none;
+    }
+
+    & .paragraph {
+        box-shadow: 0px 0px 0px  rgba(63, 61, 61, 0.7);
+        top: 0;
+        left:0;
+        margin-top: 2em;
+    }
+}
+}
+
+@media screen and (max-width: 1100px) {
+    #myself {
+
+        margin-bottom: 2em; 
+        
+        & .presentation {
+            min-width: 100vw;
+            
+            padding-left: 0em;
+            padding-right: 0em;
+    
+    
+        }
+    }
+}

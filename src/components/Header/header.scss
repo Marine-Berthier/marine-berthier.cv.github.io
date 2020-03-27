@@ -1,0 +1,77 @@
+@import 'src/styles/vars';
+
+#header {
+    
+    display: flex;
+    justify-content: space-between;
+    width: 100vw;
+    background-color: $color-background;
+    position: fixed;
+    top: -1px;
+    z-index:10;
+
+    & .menu {
+        margin-top: .7em;
+    }
+
+    & a {
+        text-decoration: none; 
+        color: $color-highlight;
+    }
+
+    & .title {
+        font-family: 'Amatic SC', cursive;
+        padding-bottom: 1em;
+        
+
+        & h1, h2 {
+            font-weight: normal;
+            margin: 0em; 
+            color: $color-highlight;
+        }
+
+        & h1 {
+            font-size:4em;
+        }
+
+        & h2 {
+            font-size: 2em;
+        }
+
+    }
+
+    & #dropdown-basic, & .dropdown-menu {
+        background-color: $color-background; 
+        border: none; 
+        color: $color-background;
+        text-align: right; 
+
+        & .dropdown-item:active {
+            background-color: $color-background;
+        }
+
+        & #hamburger-menu {
+            color: $color-highlight;
+        }
+
+
+    }
+
+    
+
+}
+
+
+
+@media screen and (max-width: 550px) {
+
+    #header {
+        & .title {
+            padding-left: .2em;
+        }
+    }
+    .fake {
+        display:none;
+    }
+  }
+
