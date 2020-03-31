@@ -81,6 +81,7 @@ class Welcome extends React.Component {
 
           <div className="buttons">
             <span className="button_english">
+              
               <strong className="button"> {'<'} </strong>
               <NavLink onClick={this.onChangeLangUK} className="NavLink" to="cv"><button variant="link">
                 <span className="button_case english">English</span>
