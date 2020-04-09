@@ -1,9 +1,7 @@
 @import 'src/styles/vars';
 
 #experiences {
-    margin-right: 2em;
     text-align: left;
-    min-width: 20em;
     max-width: 30em;
     margin-bottom: 1.5em;
     padding-left: 1em;
@@ -73,12 +71,12 @@
 
         #experiences {
             margin-bottom: 2em;
+            min-width: 100vw;
+            padding-left: 0em;
+            padding-right: 0em;
             & h1 {
                 padding-bottom: .3em;
                 padding-left: .3em;
-            }
-            & .experience-list {
-                width: 100vw;
             }
         }
        

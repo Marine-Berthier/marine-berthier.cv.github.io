@@ -2,13 +2,9 @@
 
 
 #education {
-    margin-right: 2em;
-    padding-right: 1em;
     text-align: right;
-    min-width: 20em;
-    max-width: 30em;
     margin-bottom: 8em;
-    
+    max-width: 30em;
 
     & .education-list {
         padding: 1em;
@@ -66,14 +62,13 @@
     #education {
         margin-bottom: 2em;
         margin-right: 0em;
+        min-width: 100vw;
+        padding-left: 0em;
+        padding-right: 0em;
         
         & h1 {
             padding-bottom: .3em;
-            padding-left: .3em;
-        }
-        & .education-list {
-            width: 100vw;
-            padding:0em;
+            padding-right: .3em;
         }
     }
    
