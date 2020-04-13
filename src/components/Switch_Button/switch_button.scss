@@ -1,0 +1,113 @@
+// -- vars
+
+$height: 1.1em;
+$width: 2.8em;
+
+$color-white: #fefefe;
+$color-clouds: #ecf0f1;
+$color-silver: #bdc3c7;
+$color-carrot: #e67e22;
+
+$transition-default: 0.25s ease-out 0.10s;
+
+// -- selectors
+
+*,
+*:before,
+*:after {
+  box-sizing: border-box;
+}
+
+
+.button-switch {
+  font-size: 1.5em;
+  height: $height;
+  position: relative;
+  width: $width;
+
+  .lbl-off,
+  .lbl-on {
+    cursor: pointer;
+    display: block;
+    font-size: 0.4em;
+    font-weight: bold;
+    line-height: 1em;
+    position: absolute;
+    top: .3em;
+    transition: opacity $transition-default;
+    text-transform: uppercase;
+  }
+
+  .lbl-off {
+    right: 1.5em;
+  }
+
+  .lbl-on {
+    color: $color-white;
+    opacity: 0;
+    left: .2em;
+  }
+
+  .switch {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    // --
+    height: 0;
+    font-size: 1em;
+    left: 0;
+    line-height: 0;
+    outline: none;
+    position: absolute;
+    top: 0;
+    width: 0;
+
+    &:before,
+    &:after {
+      content: '';
+      font-size: 1em;
+      position: absolute;
+      top: -.1em;
+    }
+
+    &:before {
+      border-radius: 1em;
+      background: $color-silver;
+      height: $height;
+      left: 4 / 16 * -1em;
+      top: 4.1 / 16 * -1em;
+      transition: background-color $transition-default;
+      width: $width;
+    }
+
+    &:after {
+      box-shadow: 0 .0625em .375em 0 #666;
+      border-radius: 50%;
+      background: $color-white;
+      height: 12 / 16 * 1em;
+      transform: translate(0, 0);
+      transition: transform $transition-default;
+      width: 12 / 16 * 1em;
+    }
+
+    &:checked {
+      &:after {
+        transform: translate(1.6em, 0);
+      }
+
+      & ~ .lbl-off {
+        opacity: 0;
+      }
+
+      & ~ .lbl-on {
+        opacity: 1;
+      }
+    }
+
+    &#switch-orange {
+      &:checked:before {
+        background: $color-carrot;
+      }
+    }
+  }
+}

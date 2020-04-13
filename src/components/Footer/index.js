@@ -27,9 +27,3 @@ const Footer = ({ button }) => {
 
 // == Export
 export default Footer;
-
-// const location = useLocation();
-/*  { location.pathname.indexOf('cv') !== -1
-&& (
-  <div id="up-button"><Link className="NavLink" to="cv#myself"><FiArrowUpCircle size="3em" /></Link></div>
-)} */

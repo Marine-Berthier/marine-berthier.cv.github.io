@@ -12,6 +12,9 @@
 
     & .menu {
         margin-top: .7em;
+        display: flex; 
+        flex-direction: row;
+        align-items: baseline; 
     }
 
     & a {
@@ -22,6 +25,7 @@
     & .title {
         font-family: 'Amatic SC', cursive;
         padding-bottom: 1em;
+        padding-left: 6em;
         
 
         & h1, h2 {
