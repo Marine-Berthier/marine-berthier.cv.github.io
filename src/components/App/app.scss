@@ -1,7 +1,26 @@
 @import 'src/styles/vars';
 
+// Color Switcher 
 
-#app {
+.app-dark {
+    background-color: $color-background-dark; 
+}
+ //
+
+body {
+    background-color: $color-background; 
+    font-family: 'Montserrat', sans-serif;
+}
+
+.NavLink:hover {
+    text-decoration: none; 
+}
+
+html {
+    scroll-behavior: smooth;
+  }
+
+.app, .app-dark {
     text-align:center; 
     display: flex;
    flex-direction: column;

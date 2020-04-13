@@ -1,6 +1,43 @@
 @import 'src/styles/vars';
 
+// Color Switcher 
+.app-dark {
+ #education {
 
+    color: $color-text-dark;
+
+    & h1 {
+        color: $color-medium-dark;
+    }
+
+    & h2 {
+        color: $color-highlight-dark;
+    }
+
+    & span {
+        color: $color-soft-dark;
+    }
+
+    & #accordion-education {
+        background-color: $color-background-dark;
+    
+        & .card-header {
+            background-color: $color-background-dark;
+
+        & .accordion-button {
+            background-color: $color-background-dark;
+        }
+        & .title {
+            color: $color-medium-dark;
+        }
+        }
+        
+        
+    }
+}
+}
+
+//
 #education {
     text-align: right;
     margin-bottom: 8em;
@@ -35,15 +72,15 @@
     }
 
     & #accordion-education {
-        background-color: #ECD2CB;
+        background-color: $color-background;
         border: none; 
 
         & .card-header {
-            background-color: #ECD2CB;
+            background-color: $color-background;
             border: none; 
 
         & .accordion-button {
-            background-color: #ECD2CB;
+            background-color: $color-background;
             border: none; 
             text-decoration: none;  
         }

@@ -1,5 +1,23 @@
 @import 'src/styles/vars';
 
+.app-dark {
+    #myself {
+    
+        & h1 {
+            color: $color-medium-dark;
+        }
+    
+        & .frame {
+            border: 1px $color-medium-dark solid;
+        }
+    
+        & .paragraph {
+        background-color: $color-list-dark;
+        color: $color-background-dark;       
+        }
+    }
+}
+
 #myself {
     margin-top: 5em;
     display: flex;
@@ -53,12 +71,12 @@
     }
 
     & .paragraph {
-    background-color: #816871;
+    background-color: $color-list;
     padding: 2em;
     position: relative;
     top: -2em;
     left: 2em;
-    color: #ECD2CB;
+    color: $color-background;
     box-shadow: -5px 5px 5px  rgba(63, 61, 61, 0.7);
     
        

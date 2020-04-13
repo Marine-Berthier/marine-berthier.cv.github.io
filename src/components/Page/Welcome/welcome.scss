@@ -1,5 +1,19 @@
 @import 'src/styles/vars';
 
+.app-dark {
+    
+    .buttons {
+        background-color: $color-soft-dark; 
+    
+     & .button_english, .english {
+        color: $color-background-dark; 
+    }
+    
+     & .button_french, .french {
+        color: $color-background-dark; 
+    }
+    }
+}
 
 #container {
     margin-top: 10%;
@@ -16,7 +30,8 @@
     min-width: 400px;
     text-align: center; 
     border-radius: .2em; 
-    background-color: rgba(85, 60, 80, 0.9); 
+    background-color: $color-soft; 
+    opacity: 0.9;
     z-index:1;
     
 

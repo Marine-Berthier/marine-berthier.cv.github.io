@@ -1,4 +1,44 @@
 @import 'src/styles/vars';
+// Color Switcher 
+
+.app-dark {
+
+    #header {
+        color: $color-text-dark;
+        background-color: $color-background-dark;
+    
+        & a { 
+            color: $color-highlight-dark;
+        }
+
+            & h1, h2 {
+                color: $color-highlight-dark;
+            }
+    
+        
+    
+        & #dropdown-basic, & .dropdown-menu {
+            background-color: $color-background-dark; 
+            color: $color-background-dark;
+            
+    
+            & .dropdown-item:active {
+                background-color: $color-background-dark;
+            }
+    
+            & #hamburger-menu {
+                color: $color-highlight-dark;
+            }
+    
+    
+        }
+    
+    }
+    
+    }
+
+ //
+
 
 #header {
     
@@ -14,7 +54,6 @@
         margin-top: .7em;
         display: flex; 
         flex-direction: row;
-        align-items: baseline; 
     }
 
     & a {

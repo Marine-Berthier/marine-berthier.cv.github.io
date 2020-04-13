@@ -1,5 +1,52 @@
 @import 'src/styles/vars';
 
+// Color Switcher 
+
+.app-dark {
+#experiences {
+    color: $color-background-dark;
+
+    & .experience-list {
+        background-color: $color-list-dark;
+    }
+
+    & h1 {
+        color: $color-medium-dark;
+    }
+
+    & h2 {
+        color: $color-highlight-dark;
+        color: $color-background-dark;
+    }
+
+    & span {
+        color: $color-soft-dark;
+        color: $color-clic-dark;
+    }
+
+    & #accordion-experience {
+        background-color: $color-list-dark;
+
+        & .card-header {
+        background-color: $color-list-dark;
+        }
+
+        & .accordion-button {
+            background-color:  $color-list-dark; 
+        }
+
+
+        & .title {
+            color: $color-medium-dark;
+        }
+        
+        
+}
+}
+}
+
+//
+
 #experiences {
     text-align: left;
     max-width: 30em;
@@ -9,7 +56,7 @@
     margin-bottom: 8em;
 
     & .experience-list {
-        background-color: #816871;
+        background-color: $color-list;
         padding: 1em;
         border-radius: .2em;
         
@@ -37,20 +84,20 @@
     & span {
         color: $color-soft;
         font-size: .8em;
-        color: #f4e7e3;
+        color: $color-clic;
     }
 
     & #accordion-experience {
-        background-color: #816871;
+        background-color: $color-list;
         border: none; 
 
         & .card-header {
-        background-color: #816871;
+        background-color: $color-list;
         border: none; 
         }
 
         & .accordion-button {
-            background-color:  #816871;
+            background-color:  $color-list;
             border: none; 
             text-decoration: none;  
         }

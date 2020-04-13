@@ -20,6 +20,7 @@ class App extends React.Component {
       lang: 'fr',
       appearHome: true,
       button: false,
+      darkMode: false,
     };
   }
 
@@ -34,6 +35,21 @@ class App extends React.Component {
     this.setState({
       lang: value,
     });
+  }
+
+  changeMode = () => {
+    if (this.state.darkMode == false) {
+      console.log('dark:true');
+      this.setState({
+        darkMode: true,
+      });
+    }
+    else {
+      console.log('dark:false');
+      this.setState({
+        darkMode: false,
+      });
+    }
   }
 
   componentDidMount() {
@@ -68,6 +84,7 @@ class App extends React.Component {
       lang,
       appearHome,
       button,
+      darkMode,
     } = this.state;
 
     return (
@@ -77,8 +94,8 @@ class App extends React.Component {
         timeout={1000}
         classNames="fade"
       >
-        <div ref={this.button} id="app">
-          <Header changeLang={this.changeLang} />
+        <div ref={this.button} className={darkMode ? 'app-dark' : 'app'}>
+          <Header changeLang={this.changeLang} changeMode={this.changeMode} />
           <Page id="single-page" changeLangWelcome={this.changeLangWelcome} language={lang} />
           <Footer button={button} />
         </div>

@@ -1,5 +1,30 @@
 @import 'src/styles/vars';
 
+.app-dark {
+    #hobbies {
+    
+        & h1 {
+            color: $color-medium-dark;
+        }
+    
+        & span {
+            color: $color-soft-dark;
+        }
+    
+        & h2 {
+            color: $color-highlight-dark;
+        }
+    
+        & .description-hobbies{
+            border: 1px $color-medium-dark dashed;
+        }
+    
+        & .description-trip{
+            border: 1px $color-medium-dark dashed;
+        }
+    }
+}
+
 #hobbies {
     margin-top: 1em;
     margin-bottom: 8em;

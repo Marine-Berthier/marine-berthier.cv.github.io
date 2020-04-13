@@ -11,7 +11,7 @@ import './header.scss';
 import SwitchButton from 'src/components/Switch_Button';
 
 // == Composant
-const Header = ({ changeLang }) => {
+const Header = ({ changeLang, changeMode }) => {
   const onChangeLangUK = () => {
     changeLang('eng');
   };
@@ -20,17 +20,21 @@ const Header = ({ changeLang }) => {
     changeLang('fr');
   };
 
+  const handleChangeMode = () => {
+    changeMode();
+  }
+
   return (
     <div id="header">
       <div className="fake" />
       <NavLink className="NavLink" to="/"><div className="title">
         <h1>Marine Berthier</h1>
         <h2> Web Developer</h2>
-                                          </div>
+      </div>
       </NavLink>
 
       <div className="menu">
-        <SwitchButton id="button-switch" />
+        <SwitchButton id="button-switch" handleChangeMode={handleChangeMode} />
 
         <Dropdown>
           <Dropdown.Toggle variant="link" id="dropdown-basic">

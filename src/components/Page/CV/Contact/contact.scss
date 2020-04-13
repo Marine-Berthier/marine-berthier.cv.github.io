@@ -1,5 +1,23 @@
 @import 'src/styles/vars';
+// Color Switcher 
+.app-dark {
+#contact {
 
+    color: $color-text-dark;
+
+    & a {
+        color: $color-text-dark;
+    }
+    
+
+    & h1 {
+        color: $color-medium-dark;
+    }
+
+}
+}
+
+//
 #contact {
     margin-top: 5em;
     padding-bottom: 5em;
@@ -11,7 +29,7 @@
 
     & a {
         text-decoration: none;
-        color: #212529;
+        color: $color-text;
     }
     
 

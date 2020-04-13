@@ -1,4 +1,17 @@
 @import 'src/styles/vars';
+// Color Switcher 
+
+.app-dark {
+
+    & #footer {
+    background-color: $color-background-dark; 
+
+    & .NavLink {
+        color: $color-medium-dark;
+    } 
+}
+}
+ //
 
 #footer {    
     padding: 1em;    

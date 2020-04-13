@@ -1,5 +1,28 @@
 @import 'src/styles/vars';
 
+.app-dark {
+  #skills {
+
+    & .description-skills {
+        border-bottom: 1px $color-medium-dark dashed;
+        border-top: 1px $color-medium-dark dashed;
+    }
+
+    & h1 {
+        color: $color-medium-dark;
+    }
+
+    & .bloc {
+        border: 1px $color-soft-dark solid;
+    }
+
+    & .gauge {
+        background-color: $color-soft-dark;    
+    }
+}
+}
+
+
 #skills {
     margin-top: 3em;
     margin-bottom: 10em;
