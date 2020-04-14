@@ -4,14 +4,13 @@
 .app-dark {
 
     #header {
-        color: $color-text-dark;
         background-color: $color-background-dark;
     
         & a { 
             color: $color-highlight-dark;
         }
 
-            & h1, h2 {
+            & .title h1, .title h2 {
                 color: $color-highlight-dark;
             }
     

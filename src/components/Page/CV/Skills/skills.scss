@@ -3,6 +3,10 @@
 .app-dark {
   #skills {
 
+    & h2, p {
+      color: $color-text-dark;
+    }
+
     & .description-skills {
         border-bottom: 1px $color-medium-dark dashed;
         border-top: 1px $color-medium-dark dashed;
@@ -13,11 +17,11 @@
     }
 
     & .bloc {
-        border: 1px $color-soft-dark solid;
+        border: 1px $color-highlight-dark solid;
     }
 
     & .gauge {
-        background-color: $color-soft-dark;    
+        background-color: $color-highlight-dark;    
     }
 }
 }

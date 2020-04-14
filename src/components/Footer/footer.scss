@@ -6,6 +6,10 @@
     & #footer {
     background-color: $color-background-dark; 
 
+    & p {
+        color: $color-highlight-dark;
+    }
+
     & .NavLink {
         color: $color-medium-dark;
     } 

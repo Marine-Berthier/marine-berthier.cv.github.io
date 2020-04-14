@@ -15,13 +15,11 @@
     }
 
     & h2 {
-        color: $color-highlight-dark;
         color: $color-background-dark;
     }
 
     & span {
         color: $color-soft-dark;
-        color: $color-clic-dark;
     }
 
     & #accordion-experience {
@@ -37,7 +35,7 @@
 
 
         & .title {
-            color: $color-medium-dark;
+            color: $color-soft-dark
         }
         
         

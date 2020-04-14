@@ -19,7 +19,7 @@ const Footer = ({ button }) => {
 && (
   <HeadShake><div id="up-button"><Link className="NavLink" to="cv#myself"><FiArrowUpCircle size="3em" /></Link></div></HeadShake>
 )}
-        <div>© Marine Berthier - 2020 | Tous droits réservés. </div>
+        <div><p>© Marine Berthier - 2020 | Tous droits réservés.</p> </div>
       </div>
     </>
   );

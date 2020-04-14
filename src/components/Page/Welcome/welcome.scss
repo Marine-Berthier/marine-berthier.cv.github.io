@@ -1,9 +1,11 @@
 @import 'src/styles/vars';
 
 .app-dark {
-    
-    .buttons {
-        background-color: $color-soft-dark; 
+  & #particles canvas {
+    background-color: $color-background-dark; 
+   } 
+   & .buttons {
+        background-color: $color-highlight-dark; 
     
      & .button_english, .english {
         color: $color-background-dark; 
@@ -16,7 +18,7 @@
 }
 
 #container {
-    margin-top: 10%;
+   margin-top: 10%;
     display: flex; 
     justify-content: center; 
     align-items: center; 

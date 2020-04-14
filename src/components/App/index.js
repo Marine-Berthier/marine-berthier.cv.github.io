@@ -96,7 +96,7 @@ class App extends React.Component {
       >
         <div ref={this.button} className={darkMode ? 'app-dark' : 'app'}>
           <Header changeLang={this.changeLang} changeMode={this.changeMode} />
-          <Page id="single-page" changeLangWelcome={this.changeLangWelcome} language={lang} />
+          <Page id="single-page" changeLangWelcome={this.changeLangWelcome} language={lang} mode={darkMode} />
           <Footer button={button} />
         </div>
       </CSSTransition>

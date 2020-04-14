@@ -15,12 +15,12 @@ import Welcome from './Welcome';
 import CV from './CV';
 
 // == Composant
-const Page = ({ language, changeLangWelcome }) => (
+const Page = ({ language, changeLangWelcome, mode }) => (
   <div id="page">
 
     <Switch>
       <Route exact path="/">
-        <Welcome changeLangWelcome={changeLangWelcome} />
+        <Welcome changeLangWelcome={changeLangWelcome} mode={mode} />
       </Route>
       <Route path="/cv">
         <CV lang={language} />

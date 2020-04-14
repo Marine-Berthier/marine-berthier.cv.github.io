@@ -29,14 +29,15 @@ class Welcome extends React.Component {
     } = this.props;
   }
 
-  
 
   render() {
-    
-
     const {
       appearWelcome,
     } = this.state;
+
+    const {
+      mode,
+    } = this.props;
 
     return (
       <CSSTransition
@@ -47,41 +48,75 @@ class Welcome extends React.Component {
       >
         <div id="container">
           <div id="particles">
-            <Particles
-              params={{
-                particles: {
-                  number: {
-                    value: 100,
-                  },
-                  color: {
-                    value: '#351D31',
-                  },
-                  size: {
-                    value: 3,
-                  },
-                  line_linked: {
-                    color: '#351D31',
-                    shadow: {
-                      enable: false,
+            {mode
+              ? (
+                <Particles
+                  params={{
+                    particles: {
+                      number: {
+                        value: 100,
+                      },
+                      color: {
+                        value: '#F5D7CD',
+                      },
+                      size: {
+                        value: 3,
+                      },
+                      line_linked: {
+                        color: '#F5D7CD',
+                        shadow: {
+                          enable: false,
+                        },
+                      },
                     },
-                  },
-                },
-                interactivity: {
-                  events: {
-                    onhover: {
-                      enable: true,
-                      mode: 'repulse',
+                    interactivity: {
+                      events: {
+                        onhover: {
+                          enable: true,
+                          mode: 'repulse',
+                        },
+                      },
                     },
-                  },
-                },
-              }}
-            />
+                  }}
+                />
+              ) : (
+                <Particles
+                  params={{
+                    particles: {
+                      number: {
+                        value: 100,
+                      },
+                      color: {
+                        value: '#351D31',
+                      },
+                      size: {
+                        value: 3,
+                      },
+                      line_linked: {
+                        color: '#351D31',
+                        shadow: {
+                          enable: false,
+                        },
+                      },
+                    },
+                    interactivity: {
+                      events: {
+                        onhover: {
+                          enable: true,
+                          mode: 'repulse',
+                        },
+                      },
+                    },
+                  }}
+                />
+              )}
+
           </div>
 
 
           <div className="buttons">
             <span className="button_english">
-              
+
               <strong className="button"> {'<'} </strong>
               <NavLink onClick={this.onChangeLangUK} className="NavLink" to="cv"><button variant="link">
                 <span className="button_case english">English</span>
