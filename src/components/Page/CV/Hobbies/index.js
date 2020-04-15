@@ -12,12 +12,12 @@ const Hobbies = ({ language, content }) => (
     <div className="hobbies-list">
 
       <div className="container">
-        <div className="description-hobbies"> <h2>{language == 'fr' ? content.fr.content.baking.title : content.ang.content.baking.title}</h2><p>{language == 'fr' ? content.fr.content.baking.content : content.ang.content.baking.content}</p> </div>
+        <div className="description-hobbies"><h2>{language == 'fr' ? content.fr.content.baking.title : content.ang.content.baking.title} <img className="image" src="src/components/Page/CV/Hobbies/ice-cream.svg" /></h2><p>{language == 'fr' ? content.fr.content.baking.content : content.ang.content.baking.content}</p> </div>
         <div> <img className="picture" src="src/components/Page/CV/Hobbies/image_cake.jpg" /> </div>
       </div>
 
       <div className="container-trip">
-        <div className="description-trip"> <h2>{language == 'fr' ? content.fr.content.travelling.title : content.ang.content.travelling.title}</h2><p>{language == 'fr' ? content.fr.content.travelling.content : content.ang.content.travelling.content}</p> </div>
+        <div className="description-trip"> <h2>{language == 'fr' ? content.fr.content.travelling.title : content.ang.content.travelling.title}<img className="image" src="src/components/Page/CV/Hobbies/passport.svg" /></h2><p>{language == 'fr' ? content.fr.content.travelling.content : content.ang.content.travelling.content}</p> </div>
         <div> <img className="picture-trip" src="src/components/Page/CV/Hobbies/image_plane.jpg" /> </div>
       </div>
 

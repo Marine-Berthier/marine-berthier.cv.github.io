@@ -1,7 +1,7 @@
 @import 'src/styles/vars';
 
 .app-dark {
-  & #particles canvas {
+  & #particles canvas, #particles-small-screen canvas {
     background-color: $color-background-dark; 
    } 
    & .buttons {
@@ -85,4 +85,26 @@
     
 }
 
+#particles-small-screen {
+    display: none; 
+}
+
+@media screen and (max-width: 550px) {
+    #particles {
+        display: none; 
+    }
+
+    #particles-small-screen {
+        display: block;
+    }
+
+    #particles-small-screen canvas {
+        position:fixed !important;
+        left:0;
+        top:0;
+        width:100%;
+        height:100%;
+        
+    }
+}
     

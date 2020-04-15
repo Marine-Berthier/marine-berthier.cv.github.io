@@ -5,7 +5,7 @@ $width: 2.8em;
 
 $color-white: #fefefe;
 $color-clouds: #ecf0f1;
-$color-silver: #bdc3c7;
+$color-silver: #553C50;
 $color-carrot: #FFBBAD;
 
 $transition-default: 0.25s ease-out 0.10s;
@@ -37,6 +37,7 @@ $transition-default: 0.25s ease-out 0.10s;
     top: .3em;
     transition: opacity $transition-default;
     text-transform: uppercase;
+    color: $color-white;
   }
 
   .lbl-off {
@@ -44,7 +45,6 @@ $transition-default: 0.25s ease-out 0.10s;
   }
 
   .lbl-on {
-    color: $color-white;
     opacity: 0;
     left: .2em;
   }

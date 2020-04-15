@@ -113,6 +113,72 @@ class Welcome extends React.Component {
 
           </div>
 
+          <div id="particles-small-screen">
+            {mode
+              ? (
+                <Particles
+                  params={{
+                    particles: {
+                      number: {
+                        value: 20,
+                      },
+                      color: {
+                        value: '#F5D7CD',
+                      },
+                      size: {
+                        value: 3,
+                      },
+                      line_linked: {
+                        color: '#F5D7CD',
+                        shadow: {
+                          enable: false,
+                        },
+                      },
+                    },
+                    interactivity: {
+                      events: {
+                        onhover: {
+                          enable: true,
+                          mode: 'repulse',
+                        },
+                      },
+                    },
+                  }}
+                />
+              ) : (
+                <Particles
+                  params={{
+                    particles: {
+                      number: {
+                        value: 20,
+                      },
+                      color: {
+                        value: '#351D31',
+                      },
+                      size: {
+                        value: 3,
+                      },
+                      line_linked: {
+                        color: '#351D31',
+                        shadow: {
+                          enable: false,
+                        },
+                      },
+                    },
+                    interactivity: {
+                      events: {
+                        onhover: {
+                          enable: true,
+                          mode: 'repulse',
+                        },
+                      },
+                    },
+                  }}
+                />
+              )}
+
+          </div>
+
 
           <div className="buttons">
             <span className="button_english">

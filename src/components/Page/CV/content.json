@@ -1,11 +1,11 @@
 {"myself": {   
    "fr":
    {"title": "Qui suis-je ?",
-    "content": "FR Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed varius nec sem a posuere. Sed id tortor rhoncus, tristique lectus nec, imperdiet enim. In scelerisque a orci a sollicitudin. Suspendisse potenti. Suspendisse elit elit, laoreet ac dictum at, lobortis et erat. Etiam placerat ipsum quis lectus posuere aliquam. In venenatis eleifend interdum. Aenean vestibulum ornare nulla, sed auctor tortor maximus eu. Praesent ut feugiat enim. Cras varius tellus sagittis tortor mattis lobortis. Donec nec odio quis ligula tristique mollis. Nullam leo quam, semper sit amet sagittis eu, pulvinar non nunc. In eu sapien non diam volutpat accumsan nec non nisl."
-    },
+    "content": "J'ai réalisé mon premier site internet avec Wordpress il y a 5 ans et j'ai directement adoré ça, en particulier la partie créative. A l'époque, j'évoluais dans un tout autre domaine mais j'ai continué à coder en parallèle de mon activité. Les progrès étaient trop limités à mon goût, c'est pourquoi j'ai décidé de quitter mon job pour m'investir à 100% dans le développement de sites internet.\u000AÇa, c'était en 2019, aujourd'hui j'ai terminé depuis quelques semaines la formation O'clock qui m'a permis, notamment, de me spécialiser sur la librairie JavaScript React. Je suis maintenant capable de créer des sites statiques ou dymaniques que j'espère agréables et fluides. "
+   },
     "ang":
     {"title": "Who am I ?",
-    "content": "UK Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed varius nec sem a posuere. Sed id tortor rhoncus, tristique lectus nec, imperdiet enim. In scelerisque a orci a sollicitudin. Suspendisse potenti. Suspendisse elit elit, laoreet ac dictum at, lobortis et erat. Etiam placerat ipsum quis lectus posuere aliquam. In venenatis eleifend interdum. Aenean vestibulum ornare nulla, sed auctor tortor maximus eu. Praesent ut feugiat enim. Cras varius tellus sagittis tortor mattis lobortis. Donec nec odio quis ligula tristique mollis. Nullam leo quam, semper sit amet sagittis eu, pulvinar non nunc. In eu sapien non diam volutpat accumsan nec non nisl."
+    "content": "I created my first website 5 years ago with Wordpress and I really enjoyed doing it, especially the creative part. At that time, my professional life was far away from web development but I kept on practicing my coding skills aside from my job. I realized a few years later that the progresses were to slow and that I would never be good enough (according to my standards) at that pace, this is why I decided to quit my job and invest all my time in learning web development. \nIt was in 2019, to this day I completed the training called O'Clock, which allows me, among other things, to specialize myself in React Librairy. I am now able to create nice and smooth static or dynamic websites."
     }
     },
 
@@ -14,7 +14,7 @@
     "content": "C'est très humblement que je vous liste mes compétences. Je m'améliore chaque jour et l'un de mes objectifs (mon objectif principal) est de continuer à apprendre. J'ai récemment passé le certificat de Compétences Opquast Certified avec un score de 885/1000 et je prépare également le Titre Professionnel Développeur Web et Web Mobile."
     },
     "ang": {"title": "My Skills",
-        "content": "UK Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed varius nec sem a posuere. Sed id tortor rhoncus, tristique lectus nec, imperdiet enim. In scelerisque a orci a sollicitudin. Suspendisse potenti. Suspendisse elit elit, laoreet ac dictum at, lobortis et erat. Etiam placerat ipsum quis lectus posuere aliquam."
+        "content": "Here is my humble skills'list. I get better everyday and my main goal is to keep on learning. Lately, I passed the Opquast Certification with the score of 885/1000 and I am currently studying to take an exam called 'Titre Professionnel Développeur Web et Web Mobile' which is a professional degree that will vouch for my web developping skills."
         }
     },
 
@@ -117,11 +117,11 @@
     "content": {
         "baking" : {
             "title" : "Baking",
-            "content" : "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed varius nec sem a posuere. Sed id tortor rhoncus, tristique lectus nec, imperdiet enim. In scelerisque a orci a sollicitudin. "
+            "content" : "I like when it is nice to see and tasty. I baked for everyone (including my colleagues) and on every occasion ! "
         },
         "travelling" : {
             "title" : "Travelling",
-            "content" : "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed varius nec sem a posuere. Sed id tortor rhoncus, tristique lectus nec, imperdiet enim. In scelerisque a orci a sollicitudin. "
+            "content" : "I know it is quite a random hobby but It is what I like. Beyond travelling what I enjoy even more is to live abroad, in the last few years I have lived in London, Santiago de Compostella and Columbus (Ohio, USA). These   "
         }
     }
 }},
