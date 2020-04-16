@@ -1,20 +1,20 @@
 {"myself": {   
    "fr":
    {"title": "Qui suis-je ?",
-    "content": "J'ai réalisé mon premier site internet avec Wordpress il y a 5 ans et j'ai directement adoré ça, en particulier la partie créative. A l'époque, j'évoluais dans un tout autre domaine mais j'ai continué à coder en parallèle de mon activité. Les progrès étaient trop limités à mon goût, c'est pourquoi j'ai décidé de quitter mon job pour m'investir à 100% dans le développement de sites internet.Ça, c'était en 2019, aujourd'hui j'ai terminé depuis quelques semaines la formation O'clock qui m'a permis, notamment, de me spécialiser sur la librairie JavaScript React. Le site sur lequel vous lisez ces mots est un exemple de ce que je peux produire. D'autres projets arriveront très bientôt."
+    "content": "J'ai réalisé mon premier site internet avec Wordpress il y a 5 ans et j'ai directement adoré ça, en particulier la partie créative. A l'époque, j'évoluais dans un tout autre domaine mais j'ai continué à coder en parallèle de mon activité. Les progrès étaient trop limités à mon goût, c'est pourquoi j'ai décidé de quitter mon job pour m'investir à 100% dans le développement de sites internet. <p>Ça, c'était en 2019, aujourd'hui j'ai terminé depuis quelques semaines la formation <a href='https://oclock.io/'> O'clock </a> qui m'a permis, notamment, de me spécialiser sur la librairie JavaScript React. Le site sur lequel vous lisez ces mots est un exemple de ce que je peux produire. D'autres projets arriveront très bientôt.</p>"
    },
     "ang":
     {"title": "Who am I ?",
-    "content": "I created my first website 5 years ago with Wordpress and I really enjoyed doing it, especially the creative part. At that time, my professional life was far away from web development but I kept on practicing my coding skills aside from my job. I realized a few years later that the progresses were to slow and that I would never be good enough (according to my standards) at that pace, this is why I decided to quit my job and invest all my time in learning web development. \nIt was in 2019, to this day I completed the training called O'Clock, which allows me, among other things, to specialize myself in React Librairy. This website is an example of what I am able to create, I will show you more very soon."
+    "content": "I created my first website 5 years ago with Wordpress and I really enjoyed doing it, especially the creative part. At that time, my professional life was far away from web development but I kept on practicing my coding skills aside from my job. I realized a few years later that the progresses were to slow and that I would never be good enough (according to my standards) at that pace, this is why I decided to quit my job and invest all my time in learning web development. <p>It was in 2019, to this day I completed the training called <a href='https://oclock.io/'> O'clock </a>, which allows me, among other things, to specialize myself in React Librairy. This website is an example of what I am able to create, I will show you more very soon.</p>"
     }
     },
 
  "skills": {
     "fr": {"title": "Mes compétences",
-    "content": "C'est sans aucune prétention que je vous liste mes compétences. Je m'améliore chaque jour et l'un de mes objectifs (mon objectif principal) est de continuer à apprendre. J'ai récemment passé le certificat de Compétences Opquast Certified avec un score de 885/1000 et je prépare également le Titre Professionnel Développeur Web et Web Mobile."
+    "content": "C'est sans aucune prétention que je vous liste mes compétences. Je m'améliore chaque jour et l'un de mes objectifs (mon objectif principal) est de continuer à apprendre. J'ai récemment passé le certificat de Compétences <a href='https://www.opquast.com/'>Opquast Certified </a> avec un score de 885/1000 et je prépare également le Titre Professionnel Développeur Web et Web Mobile."
     },
     "ang": {"title": "My Skills",
-        "content": "Here is my humble skills list. I get better everyday and my main goal is to keep on learning. Lately, I passed the Opquast Certification with the score of 885/1000 and I am currently studying to take an exam called 'Titre Professionnel Développeur Web et Web Mobile' which is a professional degree that will vouch for my web developping skills."
+        "content": "Here is my humble skills list. I get better everyday and my main goal is to keep on learning. Lately, I passed the <a href='https://www.opquast.com/'>Opquast Certification </a>  with the score of 885/1000 and I am currently studying to take an exam called 'Titre Professionnel Développeur Web et Web Mobile' which is a professional degree that will vouch for my web developping skills."
         }
     },
 

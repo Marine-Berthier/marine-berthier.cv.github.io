@@ -3,6 +3,11 @@
 .app-dark {
   #skills {
 
+    & a {
+      color:$color-text-dark; 
+      text-decoration: underline;
+  }
+
     & h2, p {
       color: $color-text-dark;
     }
@@ -36,6 +41,11 @@
     flex-wrap: wrap;
     margin-right: auto;
     margin-left: auto;
+
+    & a {
+      color:$color-text; 
+      text-decoration: underline;
+  }
 
     & #skills-bloc {
        display: flex;

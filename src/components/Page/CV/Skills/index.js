@@ -29,7 +29,7 @@ const Skills = ({ language, content }) => (
 
       </div>
       <div className="description-skills">
-        <p>{language == 'fr' ? content.fr.content : content.ang.content}</p>
+        <p dangerouslySetInnerHTML={{ __html: language === 'fr' ? content.fr.content : content.ang.content }} />
       </div>
     </div>
   </div>
