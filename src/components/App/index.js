@@ -17,7 +17,7 @@ class App extends React.Component {
     super(props);
     this.button = React.createRef();
     this.state = {
-      lang: 'fr',
+      lang: JSON.parse(localStorage.getItem('language')),
       appearHome: true,
       button: false,
       darkMode: false,
@@ -29,23 +29,23 @@ class App extends React.Component {
     this.setState({
       lang: value,
     });
+    localStorage.setItem('language', JSON.stringify(value));
   }
 
   changeLangWelcome = (value) => {
     this.setState({
       lang: value,
     });
+    localStorage.setItem('language', JSON.stringify(value));
   }
 
   changeMode = () => {
     if (this.state.darkMode == false) {
-      console.log('dark:true');
       this.setState({
         darkMode: true,
       });
     }
     else {
-      console.log('dark:false');
       this.setState({
         darkMode: false,
       });
@@ -65,7 +65,6 @@ class App extends React.Component {
 
   handleScroll = () => {
     const yOfButtonUp = this.button.current.getBoundingClientRect().y;
-    console.log(yOfButtonUp);
     if (yOfButtonUp < -941) {
       this.setState({
         button: true,

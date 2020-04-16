@@ -13,7 +13,7 @@ const Myself = ({ language, content }) => (
         <div className="picture" />
       </div>
       <div className="presentation">
-        <div className="frame" />
+        <div id="frame" className={language == 'fr' ? 'frameFR' : 'frameUK'} />
         <p className="paragraph">{language == 'fr' ? content.fr.content : content.ang.content}</p>
 
 

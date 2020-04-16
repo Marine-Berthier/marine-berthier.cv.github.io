@@ -1,20 +1,20 @@
 {"myself": {   
    "fr":
    {"title": "Qui suis-je ?",
-    "content": "J'ai réalisé mon premier site internet avec Wordpress il y a 5 ans et j'ai directement adoré ça, en particulier la partie créative. A l'époque, j'évoluais dans un tout autre domaine mais j'ai continué à coder en parallèle de mon activité. Les progrès étaient trop limités à mon goût, c'est pourquoi j'ai décidé de quitter mon job pour m'investir à 100% dans le développement de sites internet.\u000AÇa, c'était en 2019, aujourd'hui j'ai terminé depuis quelques semaines la formation O'clock qui m'a permis, notamment, de me spécialiser sur la librairie JavaScript React. Je suis maintenant capable de créer des sites statiques ou dymaniques que j'espère agréables et fluides. "
+    "content": "J'ai réalisé mon premier site internet avec Wordpress il y a 5 ans et j'ai directement adoré ça, en particulier la partie créative. A l'époque, j'évoluais dans un tout autre domaine mais j'ai continué à coder en parallèle de mon activité. Les progrès étaient trop limités à mon goût, c'est pourquoi j'ai décidé de quitter mon job pour m'investir à 100% dans le développement de sites internet.Ça, c'était en 2019, aujourd'hui j'ai terminé depuis quelques semaines la formation O'clock qui m'a permis, notamment, de me spécialiser sur la librairie JavaScript React. Le site sur lequel vous lisez ces mots est un exemple de ce que je peux produire. D'autres projets arriveront très bientôt."
    },
     "ang":
     {"title": "Who am I ?",
-    "content": "I created my first website 5 years ago with Wordpress and I really enjoyed doing it, especially the creative part. At that time, my professional life was far away from web development but I kept on practicing my coding skills aside from my job. I realized a few years later that the progresses were to slow and that I would never be good enough (according to my standards) at that pace, this is why I decided to quit my job and invest all my time in learning web development. \nIt was in 2019, to this day I completed the training called O'Clock, which allows me, among other things, to specialize myself in React Librairy. I am now able to create nice and smooth static or dynamic websites."
+    "content": "I created my first website 5 years ago with Wordpress and I really enjoyed doing it, especially the creative part. At that time, my professional life was far away from web development but I kept on practicing my coding skills aside from my job. I realized a few years later that the progresses were to slow and that I would never be good enough (according to my standards) at that pace, this is why I decided to quit my job and invest all my time in learning web development. \nIt was in 2019, to this day I completed the training called O'Clock, which allows me, among other things, to specialize myself in React Librairy. This website is an example of what I am able to create, I will show you more very soon."
     }
     },
 
  "skills": {
     "fr": {"title": "Mes compétences",
-    "content": "C'est très humblement que je vous liste mes compétences. Je m'améliore chaque jour et l'un de mes objectifs (mon objectif principal) est de continuer à apprendre. J'ai récemment passé le certificat de Compétences Opquast Certified avec un score de 885/1000 et je prépare également le Titre Professionnel Développeur Web et Web Mobile."
+    "content": "C'est sans aucune prétention que je vous liste mes compétences. Je m'améliore chaque jour et l'un de mes objectifs (mon objectif principal) est de continuer à apprendre. J'ai récemment passé le certificat de Compétences Opquast Certified avec un score de 885/1000 et je prépare également le Titre Professionnel Développeur Web et Web Mobile."
     },
     "ang": {"title": "My Skills",
-        "content": "Here is my humble skills'list. I get better everyday and my main goal is to keep on learning. Lately, I passed the Opquast Certification with the score of 885/1000 and I am currently studying to take an exam called 'Titre Professionnel Développeur Web et Web Mobile' which is a professional degree that will vouch for my web developping skills."
+        "content": "Here is my humble skills list. I get better everyday and my main goal is to keep on learning. Lately, I passed the Opquast Certification with the score of 885/1000 and I am currently studying to take an exam called 'Titre Professionnel Développeur Web et Web Mobile' which is a professional degree that will vouch for my web developping skills."
         }
     },
 
@@ -102,26 +102,26 @@
     "subtitle": "(A part développer des sites bien sûr)",
     "content": {
         "baking" : {
-            "title" : "La patisserie",
-            "content" : "Comme pour le développement, j'aime quand c'est beau et bon. Tout mon entourage en profite, y compris mes collègues ! "
+            "title" : "La pâtisserie",
+            "content" : "Comme pour le développement, j'aime quand c'est beau et bon. Tout mon entourage en profite, y compris mes collègues ! Cela me permet de travailler ma créativité, ma patience et ma persévérence. "
         },
         "travelling" : {
             "title" : "Les voyages",
-            "content" : "Ce n'est pas très original je vous l'accorde. Au delà des voyages j'aime vivre à l'étranger : j'ai eu l'opportunité de passer quelques mois ou quelques années : à Londres, à Saint-Jacques-de-Compostelle et à Columbus (dans l'état de l'Ohio aux USA). Cela fait de moi quelqu'un qui s'adapte rapidement et facilement à presque toutes les situations."
+            "content" : "Ce n'est pas très original je vous l'accorde. Au delà des voyages j'aime vivre à l'étranger : j'ai eu l'opportunité de vivre en Espagne, au Royaume-Uni et aux USA. Ces experiences me permettent de sortir plus facilement de ma zone de confort et de m'adapter rapidement à un nouvel environnement."
         }
     }
     },
 "ang" : {
     "title": "Things I love doing",
-    "subtitle": "(others than coding and designing)",
+    "subtitle": "(in addition to coding and designing)",
     "content": {
         "baking" : {
             "title" : "Baking",
-            "content" : "I like when it is nice to see and tasty. I baked for everyone (including my colleagues) and on every occasion ! "
+            "content" : "I like when it is nice to see and tasty. I baked for everyone (including my colleagues) and on every occasion ! It helps me being more creative, patient and persistant. "
         },
         "travelling" : {
             "title" : "Travelling",
-            "content" : "I know it is quite a random hobby but It is what I like. Beyond travelling what I enjoy even more is to live abroad, in the last few years I have lived in London, Santiago de Compostella and Columbus (Ohio, USA). These   "
+            "content" : "I know it is quite a random hobby but It is what I like. Beyond travelling what I enjoy even more is to live abroad, in the last few years I have lived in Spain, in the UK and in the USA. These experiences allow me to go easily outside my comfort zone and to be more flexible."
         }
     }
 }},

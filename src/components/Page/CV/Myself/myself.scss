@@ -7,7 +7,7 @@
             color: $color-medium-dark;
         }
     
-        & .frame {
+        & #frame {
             border: 1px $color-medium-dark solid;
         }
     
@@ -63,11 +63,18 @@
 
     }
 
-    & .frame {
+    & #frame {
         border: 1px $color-medium solid;
-        height: 20em; 
         width: 35em;
         position: absolute; 
+    }
+
+    & .frameFR {
+        height: 22em; 
+    }
+
+    & .frameUK {
+        height: 23.4em; 
     }
 
     & .paragraph {
@@ -88,7 +95,7 @@
         margin-top: 0em;
     
 
-    & .frame {
+    & #frame {
         display: none;
     }
 
