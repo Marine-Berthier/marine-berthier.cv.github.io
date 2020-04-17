@@ -15,7 +15,7 @@ const Footer = ({ button }) => {
   return (
     <>
       <div id="footer">
-        { ((location.pathname.indexOf('cv') !== -1) && (button == true))
+        { ((location.pathname.indexOf('cv') !== -1) && (button === true))
 && (
   <HeadShake><div id="up-button"><Link className="NavLink" to="cv#myself"><FiArrowUpCircle size="3em" /></Link></div></HeadShake>
 )}
