@@ -118,8 +118,21 @@ module.exports = {
           },
         ],
       },
+      // pdf 
+      {
+        test: /\.(pdf)$/,
+        use: [
+          {
+            loader: 'file-loader',
+            options: {
+              name: '[name].[ext]'
+            }
+          }
+        ]
+      },
     ],
   },
+
   devServer: {
     overlay: true, // Overlay navigateur si erreurs de build
     stats: 'minimal', // Infos en console limitées
