@@ -9,7 +9,7 @@ import { HashLink as Link } from 'react-router-hash-link';
 // == Import : local
 import './header.scss';
 import SwitchButton from 'src/components/Switch_Button';
-import cv from './src/PDF/CV_ENG_Marine_Berthier.pdf';
+import cv from './CV_ENG_Marine_Berthier.pdf';
 
 // == Composant
 const Header = ({ changeLang, changeMode }) => {
