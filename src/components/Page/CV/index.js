@@ -52,7 +52,7 @@ class CV extends React.Component {
             <Slide left>
               <Experiences language={lang} content={data.experience} />
             </Slide>
-            <Slide right>
+            <Slide left>
               <Education language={lang} content={data.education} />
             </Slide>
           </div>
