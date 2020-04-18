@@ -24,6 +24,7 @@ html {
     text-align:center; 
     display: flex;
    flex-direction: column;
+   overflow-x: hidden;
 }
 
 // Appear on page load 
