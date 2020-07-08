@@ -6,6 +6,7 @@ const UglifyJsPlugin = require('uglifyjs-webpack-plugin');
 const MiniCssExtractPlugin = require('mini-css-extract-plugin');
 const OptimizeCSSAssetsPlugin = require('optimize-css-assets-webpack-plugin');
 const HtmlWebPackPlugin = require('html-webpack-plugin');
+const FaviconsWebpackPlugin = require('favicons-webpack-plugin');
 
 // Config pour le devServer
 const host = 'localhost';
@@ -154,5 +155,7 @@ module.exports = {
       filename: '[name].css',
       chunkFilename: '[id].css',
     }),
+    // Favicon
+    new FaviconsWebpackPlugin('./src/logo.png'),
   ],
 };
