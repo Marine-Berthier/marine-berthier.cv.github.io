@@ -14,6 +14,7 @@ import Experiences from './Experiences';
 import Education from './Education';
 import Hobbies from './Hobbies';
 import Contact from './Contact';
+import Creations from './Creations';
 
 // == Composant
 class CV extends React.Component {
@@ -44,6 +45,7 @@ class CV extends React.Component {
       >
         <div id="CV">
           <Myself language={lang} content={data.myself} />
+          <Creations language={lang} content={data.creations} />
 
           <Skills language={lang} content={data.skills} />
 

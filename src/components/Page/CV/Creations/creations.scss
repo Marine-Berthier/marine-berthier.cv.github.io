@@ -1,0 +1,119 @@
+@import 'src/styles/vars';
+
+.app-dark {
+    #creations {
+
+    
+        & h1 {
+            color: $color-medium-dark;
+        }
+
+        & p {
+            color: $color-text-dark;
+        }
+
+        & #container {
+            & .github{
+            & a {
+                color: $color-text-dark;
+            }
+
+            & a:hover {
+                color:$color-medium-dark;
+            }
+        }
+    }
+}
+}
+
+#creations {
+    margin-top: 5em;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-bottom: 5em;
+
+
+    & h1 {
+        font-weight: normal;
+        color: $color-medium;
+        font-family: 'Caveat', cursive;
+        margin-right: 1em; 
+        margin-left: 1em;
+    }
+
+    & #container {
+        margin: 6em 1.3em 0em 1.3em;
+        display: flex; 
+        flex-direction: column; 
+
+        & #website-list {
+            padding-bottom: 4em;
+
+            & .website-item {
+                & a {
+                    text-decoration: none; 
+                    color: $color-text;
+                }
+    
+                & img {
+                    width: 16em;
+                    padding-bottom: 1em;
+                    filter: grayscale(1);
+                }
+
+                & a:hover {
+                    & img {filter: grayscale(0);}
+                }
+
+            }
+        }
+
+        & .github {
+
+            & a {
+                display: inline-block;
+                text-decoration: none;
+                color: $color-text;
+    
+                & .git {
+                    size: 3em;
+                }
+            }
+    
+            & a:hover {
+                color:$color-medium;
+            }
+
+        }    
+
+    }
+
+    & .icon {
+        display: inline; 
+        margin-left: 1em;
+    }
+}
+
+@media screen and (max-width: 1250px) {
+    #creations {
+        margin-top: 0em;
+}
+}
+
+@media screen and (max-width: 1100px) {
+    #creations {
+
+        margin-bottom: 2em; 
+    }
+}
+
+@media screen and (max-width: 450px) {
+    #creations {
+        & .icon {
+            display: inline-block;
+            padding-top: 1em;
+        }
+    }
+}
