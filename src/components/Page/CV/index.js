@@ -25,16 +25,15 @@ class CV extends React.Component {
     };
   }
 
-
   render() {
     const {
       lang,
+      mode,
     } = this.props;
 
     const {
       appearCv,
     } = this.state;
-
 
     return (
       <CSSTransition
@@ -45,10 +44,9 @@ class CV extends React.Component {
       >
         <div id="CV">
           <Myself language={lang} content={data.myself} />
-          <Creations language={lang} content={data.creations} />
+          <Creations language={lang} content={data.creations} mode={mode} />
 
           <Skills language={lang} content={data.skills} />
-
 
           <div id="exp-edu">
             <Slide left>

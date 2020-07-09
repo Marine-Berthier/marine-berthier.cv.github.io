@@ -5,7 +5,7 @@
    },
     "ang":
     {"title": "Who am I ?",
-    "content": "I created my first website 5 years ago with Wordpress and I really enjoyed doing it, especially the creative part. At that time, my professional life was far away from web development but I kept on practicing my coding skills aside from my job. I realized a few years later that the progresses were to slow and that I would never be good enough (according to my standards) at that pace, this is why I decided to quit my job and invest all my time in learning web development. <p>It was in 2019, to this day I completed the training called <a href='https://oclock.io/'> O'clock </a>, which allows me, among other things, to specialize myself in React. This website is an example of what I am able to create,you will find more below.</p>"
+    "content": "I created my first website 5 years ago with Wordpress and I really enjoyed doing it, especially the creative part. At that time, my professional life was far away from web development but I kept on practicing my coding skills aside from my job. I realized a few years later that the progresses were to slow and that I would never be good enough (according to my standards) at that pace, this is why I decided to quit my job and invest all my time in learning web development. <p>It was in 2019, to this day I completed the training called <a href='https://oclock.io/'> O'clock </a>, which allows me, among other things, to specialize myself in React. This website is an example of what I am able to create, you will find more below.</p>"
     }
     },
 
@@ -20,10 +20,10 @@
 
     "creations": {
         "fr": {"title": "Mes réalisations",
-        "content": "Vous pouvez trouver des exemples de code sur Github"
+        "content": "Vous pouvez trouver plus de réalisations sur Github"
         },
         "ang": {"title": "What I have created so far :",
-            "content": "You can find most of my code on Github"
+            "content": "You can find more of my work on Github"
             }
         },
 

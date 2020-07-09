@@ -14,8 +14,10 @@
 
         & #container {
             & .github{
+            background-color: $color-highlight-dark;
+            color: $color-background-dark; 
             & a {
-                color: $color-text-dark;
+                color: $color-background-dark;
             }
 
             & a:hover {
@@ -27,7 +29,7 @@
 }
 
 #creations {
-    margin-top: 5em;
+    margin-top: 7em;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -44,9 +46,18 @@
     }
 
     & #container {
-        margin: 6em 1.3em 0em 1.3em;
+        margin: 4em 1.3em 0em 1.3em;
         display: flex; 
         flex-direction: column; 
+
+        & .tape {
+            width: 13em;
+            display: inline; 
+            margin-left: auto;
+            margin-right: auto;
+            position : relative; 
+            bottom: 10.3em;
+        }
 
         & #website-list {
             display: flex; 
@@ -77,23 +88,37 @@
                     filter: grayscale(1);
                 }
 
+                & .img-dot{
+                    width: 20em;
+                    padding-bottom: 1em;
+                    filter: grayscale(0.4);
+                }
+
                 & a:hover {
                     & img {filter: grayscale(0);}
+                }
+
+                & .img-dot:hover {
+                    filter: grayscale(0);
                 }
 
             }
         }
 
         & .github {
+            background-image: url('./paper.jpg');
+            background-size: cover;
+            padding: 1.7em 1em 1em 1em;
+            box-shadow: -5px 5px 25px rgba(63, 61, 61, 0.7);
+            font-family: 'Caveat', cursive;
+            font-size: 1.3em;
+            transform: rotate(2deg);
+            
 
             & a {
                 display: inline-block;
                 text-decoration: none;
-                color: $color-text;
-    
-                & .git {
-                    size: 3em;
-                }
+                color: $color-text; 
             }
     
             & a:hover {
@@ -110,9 +135,42 @@
     }
 }
 
+@media screen and (max-width: 523px) {
+
+    #creations {
+        & #container {
+            & .tape {
+                width: 13em;
+                display: inline; 
+                margin-left: auto;
+                margin-right: auto;
+                position : relative; 
+                bottom: 13.3em;
+            }
+        }
+    }  
+}
+
+@media screen and (min-width: 451px) and (max-width: 522px) {
+
+    #creations {
+        & #container {
+            & .tape {
+                width: 13em;
+                display: inline; 
+                margin-left: auto;
+                margin-right: auto;
+                position : relative; 
+                bottom: 12.3em;
+            }
+        }
+    }
+    
+}
+
 @media screen and (max-width: 1250px) {
     #creations {
-        margin-top: 0em;
+        margin-top: 4em;
 }
 }
 

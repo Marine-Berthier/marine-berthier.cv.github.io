@@ -6,7 +6,6 @@ import {
   Route,
 } from 'react-router-dom';
 
-
 // == Import : local
 import './page.scss';
 
@@ -23,10 +22,9 @@ const Page = ({ language, changeLangWelcome, mode }) => (
         <Welcome changeLangWelcome={changeLangWelcome} mode={mode} />
       </Route>
       <Route path="/cv">
-        <CV lang={language} />
+        <CV lang={language} mode={mode} />
       </Route>
     </Switch>
-
 
   </div>
 );
