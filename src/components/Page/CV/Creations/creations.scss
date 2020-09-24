@@ -13,10 +13,11 @@
         }
 
         & #container {
-            & .github-space{
-                color: $color-text-dark;
+            & .github{
+            background-color: $color-highlight-dark;
+            color: $color-background-dark; 
             & a {
-                color: $color-text-dark;
+                color: $color-background-dark;
             }
 
             & a:hover {
@@ -49,6 +50,14 @@
         display: flex; 
         flex-direction: column; 
 
+        & .tape {
+            width: 13em;
+            display: inline; 
+            margin-left: auto;
+            margin-right: auto;
+            position : relative; 
+            bottom: 10.3em;
+        }
 
         & #website-list {
             display: flex; 
@@ -96,8 +105,15 @@
             }
         }
 
-        & .github-space {
-            padding: 4em;
+        & .github {
+            background-image: url('./paper.jpg');
+            background-size: cover;
+            padding: 1.7em 1em 1em 1em;
+            box-shadow: -5px 5px 25px rgba(63, 61, 61, 0.7);
+            font-family: 'Caveat', cursive;
+            font-size: 1.3em;
+            transform: rotate(2deg);
+            
 
             & a {
                 display: inline-block;
@@ -119,6 +135,37 @@
     }
 }
 
+@media screen and (max-width: 523px) {
+
+    #creations {
+        & #container {
+            & .tape {
+               width: 13em;
+                display: inline; 
+                margin-left: auto;
+                margin-right: auto;
+                position : relative; 
+                bottom: 13.3em;          }
+        }
+    }  
+}
+
+@media screen and (min-width: 451px) and (max-width: 522px) {
+
+    #creations {
+        & #container {
+            & .tape {
+                width: 13em;
+                display: inline; 
+                margin-left: auto;
+                margin-right: auto;
+                position : relative; 
+                bottom: 12.3em;
+            }
+        }
+    }
+    
+}
 
 @media screen and (max-width: 1250px) {
     #creations {

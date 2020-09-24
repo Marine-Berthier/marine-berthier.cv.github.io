@@ -43,13 +43,13 @@ const Creations = ({ language, content, mode }) => (
 
           </div>
 
-          <div className="website-item github-space">
-            {language === 'fr' ? content.fr.content : content.ang.content}  <a href="https://github.com/Marine-Berthier"><div className="icon"> <FaGithub className="git" size="2.6em" /> </div> </a>
-
-          </div>
-
         </div>
       </Fade>
+      <div className="github">
+
+        {language === 'fr' ? content.fr.content : content.ang.content}  <a href="https://github.com/Marine-Berthier"><div className="icon"> <FaGithub className="git" size="2.6em" /> </div> </a>
+      </div>
+      <img className="tape" src={imageTape} />
     </div>
   </div>
 );
