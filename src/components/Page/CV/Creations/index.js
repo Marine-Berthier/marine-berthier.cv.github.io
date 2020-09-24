@@ -30,13 +30,6 @@ const Creations = ({ language, content, mode }) => (
           </div>
 
           <div className="website-item">
-            <a className="website-link" href="https://mayan-gender-chart.netlify.app/"><img src={imgaeSiteMayan} alt="screenshot website" />
-
-              {language === 'fr' ? <p>Application JS basée sur le calendrier Maya <FaBaby size="1.5em" /></p> : <p>JS application based on the Mayan gender chart <FaBaby size="1.5em" /></p>}
-            </a>
-          </div>
-
-          <div className="website-item">
             {mode === true ? <img className="img-dot" src={imageDark} alt="dot dot dot" /> : <img className="img-dot" src={imagePale} alt="dot dot dot" />}
 
             {language === 'fr' ? <p>Du nouveau très bientôt <GiHourglass size="1.5em" /></p> : <p>More to come very soon <GiHourglass size="1.5em" /></p>}
