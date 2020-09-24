@@ -140,12 +140,13 @@
     #creations {
         & #container {
             & .tape {
-                width: 13em;
+                display: none; 
+               /* width: 13em;
                 display: inline; 
                 margin-left: auto;
                 margin-right: auto;
                 position : relative; 
-                bottom: 13.3em;
+                bottom: 13.3em;*/
             }
         }
     }  
