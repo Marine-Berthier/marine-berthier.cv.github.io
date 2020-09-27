@@ -1,7 +1,7 @@
 // == Import : npm
 import React from 'react';
 import { FaGithub, FaBaby } from 'react-icons/fa';
-import { GiSpade, GiHourglass } from 'react-icons/gi';
+import { GiSpade, GiHourglass, GiCardPickup } from 'react-icons/gi';
 import Fade from 'react-reveal/Fade';
 
 // == Import : local
@@ -12,6 +12,7 @@ import imagePale from './pale.png';
 import imagePaper from './paper.jpg';
 import imageSite from './site-CL.png';
 import imgaeSiteMayan from './site-Maya.png';
+import imgaeSiteMemory from './memory.png';
 import imageTape from './tape.png';
 
 // == Composant
@@ -33,6 +34,13 @@ const Creations = ({ language, content, mode }) => (
             <a className="website-link" href="https://mayan-gender-chart.netlify.app/"><img src={imgaeSiteMayan} alt="screenshot website" />
 
               {language === 'fr' ? <p>Application JS basée sur le calendrier Maya <FaBaby size="1.5em" /></p> : <p>JS application based on the Mayan gender chart <FaBaby size="1.5em" /></p>}
+            </a>
+          </div>
+
+          <div className="website-item">
+            <a className="website-link" href="https://music-memory-g.netlify.app//"><img src={imgaeSiteMemory} alt="screenshot website" />
+
+              {language === 'fr' ? <p> Jeu du Memory fait avec React <GiCardPickup size="1.5em" /></p> : <p>Memory Game made with React <GiCardPickup size="1.5em" /></p>}
             </a>
           </div>
 
