@@ -145,7 +145,15 @@
                 margin-left: auto;
                 margin-right: auto;
                 position : relative; 
-                bottom: 13.3em;          }
+                bottom: 13.3em;  
+            }
+
+            & #website-list {
+                & .website-item {
+                    padding-right: 0; 
+                    padding-left: 0; 
+                }
+            }
         }
     }  
 }
